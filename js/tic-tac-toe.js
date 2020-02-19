@@ -84,7 +84,7 @@ function getWinner() {
       board[condition[0]] === board[condition[1]] &&
       board[condition[1]] === board[condition[2]]
     ) {
-      winner x = board[condition[0]];
+      winner = board[condition[0]];
       if(winner === "X"){
         xWins++;
         document.getElementById("xScore").innerHTML = xWins;
