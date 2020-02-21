@@ -6,7 +6,7 @@
 header {
   text-align: center;
   background-color: #8F2D56;
-  color: #CEEAE5;
+  color: #99E1D9;
   font-size: 25px;
 }
 
@@ -24,8 +24,11 @@ h3 {
   margin-top: 2%;
 }
 a {
-  color: #428484;
-  border: 2px solid  #8F2D56;
+  color: black;
+  border: 2px solid #8F2D56 ;
   width: 20%;
   text-align: center;
+}
+a:hover{
+  background-color: #99E1D9;
 }

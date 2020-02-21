@@ -1,14 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #8F2D56;
+  color: #99E1D9;
+  font-size: 25px;
+}
+
 body {
   text-align: center;
-  font-family: "Roboto", monospace;
-  background-color: #E2DEEF;
+  background-color: #EFDFDC;
 }
 
 h1 {
   margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
   font-size: 48px;
-  margin: 2%;
 }
 
 h2 {
