@@ -127,6 +127,7 @@ body {
   border: 2px solid black;
   width: 20%;
   background-color: #DDE0D7;
+    text-align: center;
 }
 .redScore ,
 .yellowScore {
