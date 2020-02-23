@@ -25,13 +25,22 @@ h3 {
   font-size: 20px;
 }
 
-#tic-tac-toe-css {
-  color: red;
-  border: 2px solid #8F2D56 ;
-  width: 20%;
+h2 {
+  color: black;
+  border: 2px solid black;
+  background-color: #DDE0D7;
+  height: 20px;
+  font-size: 15px;
+  width: 350px;
   text-align: center;
-
+  margin-top: 3%;
+  margin-left: 5%;
 }
-a:hover{
-  background-color: #99E1D9;
+h2:hover {
+  background-color:#E2D3DF;
+}
+img {
+  border: 1px solid black;
+  margin-left: 75px;
+  margin-top: 3%;
 }
