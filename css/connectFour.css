@@ -66,3 +66,75 @@ body {
   cursor: pointer;
   box-shadow: 0.3em 0.3em 0.3em #777777;
 }
+.container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 480px;
+  width: 600px;
+}
+
+.circle {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 96px;
+  height: 75px;
+  line-height: 150px;
+  user-select: none;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: #E2D3DF;
+  cursor: pointer;
+}
+
+#reset-button {
+  background-color: #DDE0D7;
+  border: 1px solid black;
+  color: #01AABC;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+}
+
+#reset-button:hover {
+  background-color: #E2D3DF;
+  color: black;
+  cursor: pointer;
+}
+#scoreBoard{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin: auto;
+}
+.scores {
+  border: 2px solid black;
+  width: 20%;
+  background-color: #DDE0D7;
+}
+.redScore ,
+.yellowScore {
+  border-bottom: 2px solid black;
+  font-size: 20px;
+}
+#redScore ,
+#yellowScore {
+  color: #01AABC;
+  font-size: 17px;
+}
