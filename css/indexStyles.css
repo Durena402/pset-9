@@ -5,29 +5,32 @@
 
 header {
   text-align: center;
-  background-color: #8F2D56;
-  color: #99E1D9;
+  background-color: #3BD8DD;
+  color: white;
   font-size: 25px;
 }
 
 body {
-  background-color: #EFDFDC;
+  background-color: #E8FEFF;
 }
 
 h3 {
   color: black;
   text-align: center;
-  border: 2px solid #8F2D56;
+  border-bottom: 3px solid black;
   width: 50%;
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 2%;
+  font-size: 20px;
 }
-a {
-  color: black;
+
+#tic-tac-toe-css {
+  color: red;
   border: 2px solid #8F2D56 ;
   width: 20%;
   text-align: center;
+
 }
 a:hover{
   background-color: #99E1D9;

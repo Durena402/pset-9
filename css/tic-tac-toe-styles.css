@@ -5,19 +5,22 @@
 
 header {
   text-align: center;
-  background-color: #8F2D56;
-  color: #99E1D9;
+  background-color: #3BD8DD;
+  color: white;
   font-size: 25px;
 }
 
 body {
-  text-align: center;
-  background-color: #EFDFDC;
+  background-color: #E8FEFF;
+}
+.house:hover {
+  background-color: white;
 }
 
-h1 {
-  margin: 0 auto;
-  font-size: 48px;
+#name {
+  font-size: 35px;
+  margin-top: .5%;
+  text-align: center;
 }
 
 h2 {
@@ -54,14 +57,14 @@ h2 {
 }
 
 .square:hover {
-  background-color: #A4E8CD;
+  background-color: #E2D3DF;
   cursor: pointer;
 }
 
 #reset-button {
-  background-color: pink;
+  background-color: #DDE0D7;
   border: 1px solid black;
-  color: black;
+  color: #01AABC;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -70,13 +73,18 @@ h2 {
 }
 
 #reset-button:hover {
-  background-color: #A4E8CD;
+  background-color: #E2D3DF;
   color: black;
   cursor: pointer;
 }
 #choosing-first-title {
   border: 1px solid black;
-  background-color: pink;
+  background-color: #DDE0D7;
+  font-size: 20px;
+  color: #01AABC;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
 }
 #x-first {
   margin-left: auto;
@@ -84,11 +92,13 @@ h2 {
   width: 10%;
   margin-top: 1%;
   margin bottom: 10%;
-  background-color: pink;
+  background-color: #DDE0D7;
   border: 1px solid black;
+  color: #01AABC;
+  font-size: 15px;
 }
 #x-first:hover {
-  background-color: #A4E8CD;
+  background-color: #E2D3DF;
   color: black;
   cursor: pointer;
   box-shadow: 0.3em 0.3em 0.3em #777777;
@@ -99,11 +109,13 @@ h2 {
   width: 10%;
   margin-top: 1%;
   margin bottom: 10%;
-  background-color: pink;
+  background-color: #DDE0D7;
   border: 1px solid black;
+  color: #01AABC;
+  font-size: 15px;
 }
 #o-first:hover {
-  background-color: #A4E8CD;
+  background-color: #E2D3DF;
   color: black;
   cursor: pointer;
   box-shadow: 0.3em 0.3em 0.3em #777777;
@@ -117,7 +129,7 @@ h2 {
 .scores {
   border: 2px solid black;
   width: 20%;
-  background-color: pink;
+  background-color: #DDE0D7;
 }
 .oScore ,
 .xScore {
@@ -125,7 +137,7 @@ h2 {
   font-size: 20px;
 }
 #oScore ,
-#yScore {
-  color: #937B63;
+#xScore {
+  color: #01AABC;
   font-size: 17px;
 }
