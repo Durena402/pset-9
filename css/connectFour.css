@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #3BD8DD;
+  color: white;
+  font-size: 25px;
+}
+
+body {
+  background-color: #E8FEFF;
+}
+.house:hover {
+  background-color: white;
+}
+
+#name {
+  font-size: 35px;
+  margin-top: .5%;
+  text-align: center;
+}
+#choosing-first-title {
+  border: 1px solid black;
+  background-color: #DDE0D7;
+  font-size: 20px;
+  color: #01AABC;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  text-align: center;
+}
+#yellow-first {
+  margin-left: 40%;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 1%;
+  margin bottom: 10%;
+  background-color: #DDE0D7;
+  border: 1px solid black;
+  color: #01AABC;
+  font-size: 15px;
+}
+#yellow-first:hover {
+  background-color: #E2D3DF;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0.3em 0.3em 0.3em #777777;
+}
+#red-first {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 1%;
+  margin bottom: 10%;
+  background-color: #DDE0D7;
+  border: 1px solid black;
+  color: #01AABC;
+  font-size: 15px;
+}
+#red-first:hover {
+  background-color: #E2D3DF;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0.3em 0.3em 0.3em #777777;
+}
