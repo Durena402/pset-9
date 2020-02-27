@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background-color: #E8FEFF;
+  background-color: #FFFDF4;
 }
 .house:hover {
   background-color: white;
@@ -84,6 +84,8 @@ body {
   flex-wrap: wrap;
   height: 480px;
   width: 600px;
+  background-color: #455FE0;
+  border: 3px solid black;
 }
 
 .circle {
@@ -94,6 +96,8 @@ body {
   user-select: none;
   width: 75px;
   border-radius: 50%;
+  border: 2px solid black;
+  background: white;
 }
 
 .circle:hover {

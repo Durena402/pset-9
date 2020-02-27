@@ -54,6 +54,7 @@ h2 {
   line-height: 150px;
   user-select: none;
   width: 150px;
+  text-align: center;
 }
 
 .square:hover {
