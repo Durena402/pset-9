@@ -141,7 +141,7 @@ function takeTurn(e) {
 
     if (board[index] === "") {
       board[index] = turn;
-      turn = turn === "Yellow" ? "Yellow" : "Red";
+      turn = turn === "Yellow" ? "Red" : "Yellow";
       win = getWinner();
 
       render();
