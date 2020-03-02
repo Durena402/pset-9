@@ -75,6 +75,14 @@ const winningConditions = [
   [3, 11, 19, 27],
 ];
 
+const column1 = [ 0, 7, 14, 21, 28, 35 ];
+const column2 = [ 1, 8, 15, 22, 29, 36 ];
+const column3 = [ 2, 9, 16, 23, 30, 37 ];
+const column4 = [ 3, 10, 17, 24, 31, 38 ];
+const column5 = [ 4, 11, 18, 25, 32, 39 ];
+const column6 = [ 5, 12, 19, 26, 33, 40 ];
+const column7 = [ 6, 13, 20, 27, 34, 41 ];
+
 ///////////////////// APP STATE (VARIABLES) /////////////////////////
 
 let board;
@@ -107,7 +115,7 @@ function init() {
             "","", "", "", "", "", ""]
   turn = "Yellow";
   win = null;
-
+  pieceDown();
   render();
 }
 
@@ -125,12 +133,16 @@ function init() {
 
 function render() {
   board.forEach(function(mark, index) {
-    console.log(mark, index);
+    //console.log(mark, index);
     circles[index].style.backgroundColor = mark;
   });
 
   message.textContent =
     win === "T" ? "It's a tie!" : win ? `${win} wins!` : `Turn: ${turn}`;
+}
+
+function pieceDown(col){
+
 }
 
 function takeTurn(e) {
@@ -139,8 +151,37 @@ function takeTurn(e) {
       return circle === e.target;
     });
 
+    let avail = -1;
+    if (column1.includes(index)) {
+      for (let i = 0; i < column1.length; i++) {
+        if (board[column1[i]] === "") {
+          avail = column1[i];
+        } else {
+          break;
+        }
+      }
+    }
+    if (column2.includes(index)) {
+      for (let i = 0; i < column2.length; i++) {
+        if (board[column2[i]] === "") {
+          avail = column2[i];
+        } else {
+          break;
+        }
+      }
+    }
+    if (column3.includes(index)) {
+      for (let i = 0; i < column3.length; i++) {
+        if (board[column3[i]] === "") {
+          avail = column3[i];
+        } else {
+          break;
+        }
+      }
+    }
+    
     if (board[index] === "") {
-      board[index] = turn;
+      board[avail] = turn;
       turn = turn === "Yellow" ? "Red" : "Yellow";
       win = getWinner();
 
