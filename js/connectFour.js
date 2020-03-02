@@ -179,7 +179,25 @@ function takeTurn(e) {
         }
       }
     }
-    
+    if (column4.includes(index)) {
+      for (let i = 0; i < column4.length; i++) {
+        if (board[column4[i]] === "") {
+          avail = column4[i];
+        } else {
+          break;
+        }
+      }
+    }
+    if (column5.includes(index)) {
+      for (let i = 0; i < column5.length; i++) {
+        if (board[column5[i]] === "") {
+          avail = column5[i];
+        } else {
+          break;
+        }
+      }
+    }
+
     if (board[index] === "") {
       board[avail] = turn;
       turn = turn === "Yellow" ? "Red" : "Yellow";
