@@ -119,7 +119,7 @@ function drawLives() {
 function drawLives(){
   document.querySelector("#lives").innerHTML = "Lives Left: " +lives;
 }
-function drawLives(){
+function drawScore(){
   document.querySelector("#score").innerHTML = "Score: " + score;
 }
 function draw() {
