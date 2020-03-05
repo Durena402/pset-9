@@ -117,7 +117,10 @@ function drawLives() {
   ctx.fillText("Lives: "+lives, canvas.width-65, 20);
 }
 function drawLives(){
-  document.querySelector("#score").innerHTML = "Lives Left: " +lives;
+  document.querySelector("#lives").innerHTML = "Lives Left: " +lives;
+}
+function drawLives(){
+  document.querySelector("#score").innerHTML = "Score: " + score;
 }
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
