@@ -116,7 +116,9 @@ function drawLives() {
   ctx.fillStyle = "black";
   ctx.fillText("Lives: "+lives, canvas.width-65, 20);
 }
-
+function drawLives(){
+  document.querySelector("#score").innerHTML = "Lives Left: " +lives;
+}
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBricks();
