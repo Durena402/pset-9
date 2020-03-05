@@ -56,7 +56,7 @@ body {
   border: 3px solid black;
 }
 
-#reset-button {
+#speed-button {
   background-color: #DDE0D7;
   border: 1px solid black;
   color: #01AABC;
@@ -67,7 +67,7 @@ body {
   width: 456px;
 }
 
-#reset-button:hover {
+#speed-button:hover {
   background-color: #E2D3DF;
   color: black;
   cursor: pointer;
