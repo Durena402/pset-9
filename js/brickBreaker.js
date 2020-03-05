@@ -145,7 +145,7 @@ function draw() {
     else {
       lives--;
       if(!lives) {
-        alert("GAME OVER! YOU LOST :(");
+        alert("Game Over .... You Lost :(");
         document.location.reload();
       }
       else {
