@@ -22,17 +22,18 @@ body {
   margin-top: .5%;
   text-align: center;
 }
-#choosing-first-title {
-  border: 1px solid black;
+#yellow-first {
+  margin-left: 40%;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 1%;
+  margin bottom: 10%;
   background-color: #DDE0D7;
-  font-size: 20px;
+  border: 1px solid black;
   color: #01AABC;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 2%;
-  text-align: center;
+  font-size: 15px;
 }
-}
+
 .container {
   margin-top: 3%;
   display: flex;
