@@ -1,6 +1,6 @@
 var canvas = document.getElementById("board");
 var ctx = canvas.getContext("2d");
-var ballRadius = 12.5;
+var ballRadius = 10;
 var x = canvas.width/2;
 var y = canvas.height;
 var dx = 2;
