@@ -50,7 +50,7 @@ body {
 
 .wrap {
   flex-wrap: wrap;
-  height: 480px;
+  height: 500px;
   width: 600px;
   background-color: #94F2FC;;
   border: 3px solid black;
